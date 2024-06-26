@@ -14,7 +14,7 @@ mGA = modifiedGA( PopSize, nGen, nParam, mins, maxs, function, OptimType, overst
 
 <br>
 
-## Setting the optimization object
+### Setting the optimization object
 
 **Required parameters:**
   * `PopSize`   : Population size (must be at least 10)
@@ -38,7 +38,7 @@ mGA = modifiedGA( PopSize, nGen, nParam, mins, maxs, function, OptimType, overst
 
 <br>
 
-## Optimizing and getting results
+### Optimizing and getting results
 
 ```python
 results, values = mGA.optimize()
@@ -46,7 +46,9 @@ results, values = mGA.optimize()
 
 It gives the most optimal result and the parameters of this result as return value.
 
-## Saving the results
+<br>
+
+### Saving the results
 
 ```python
 mGA.saveResults( name, graph, xlabel, ylabel, title )
