@@ -7,12 +7,12 @@ This Python module comprises a modified Genetic Algorithm where a new intermedia
 ### Setting the optimization object
 
 ```python
-mGA = modifiedGA( PopSize, nGen, nVar, mins, maxs, problem, OptimType, info )
+mGA = modifiedGA( popSize, nGen, nVar, mins, maxs, problem, optimType, info )
 ```
 <br>
 
 **Required parameters:**
-  * `PopSize`   : Population size (must be at least 10)
+  * `popSize`   : Population size (must be at least 10)
   * `nGen`      : Number of generations
   * `nVar`      : Number of variables
   * `mins`      : Minimum value in the parameter space of possible values for the variables
@@ -26,7 +26,7 @@ mGA = modifiedGA( PopSize, nGen, nVar, mins, maxs, problem, OptimType, info )
 
 **Non-required parameters:**
   * `seed` (integer) : Sets the initial value of the random number generator as a function of the given number. Using the same seed will always yield the same result.
-  * `OptimType`      : Optimization type - 'minimum' or 'maximum' (defaul value is 'minimum')
+  * `optimType`      : Optimization type - 'minimum' or 'maximum' (defaul value is 'minimum')
     * 'minimum', optimizes the problem to the minimum value.
     * 'maximum', optimizes the problem to the maximum value.
   * `info` (bool)    : Enable or disable showing information during calculation (default value is True).
