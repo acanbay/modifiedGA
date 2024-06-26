@@ -7,20 +7,20 @@ This Python module comprises a modified Genetic Algorithm where a new intermedia
 ### Setting the optimization object
 
 ```python
-mGA = modifiedGA( PopSize, nGen, nParam, mins, maxs, problem, OptimType, overstep, info )
+mGA = modifiedGA( PopSize, nGen, nVar, mins, maxs, problem, OptimType, overstep, info )
 ```
 <br>
 
 **Required parameters:**
   * `PopSize`   : Population size (must be at least 10)
   * `nGen`      : Number of generations
-  * `nParam`    : Number of parameters
+  * `nVar`      : Number of variables
   * `mins`      : Minimum value in the parameter space of possible values for the variables
   * `maxs`      : Maximum value in the parameter space of possible values for the variables
   * `problem`   : The problem to be used in optimization
   
   > Warning!
-  > The values of mins and maxs should consist of as many as nParam value.
+  > The values of mins and maxs should consist of as many as nVar value.
 
 <br>
 
