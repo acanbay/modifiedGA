@@ -7,7 +7,7 @@ This Python module comprises a modified Genetic Algorithm where a new intermedia
 ### Setting the optimization object
 
 ```python
-mGA = modifiedGA( PopSize, nGen, nVar, mins, maxs, problem, OptimType, overstep, info )
+mGA = modifiedGA( PopSize, nGen, nVar, mins, maxs, problem, OptimType, info )
 ```
 <br>
 
