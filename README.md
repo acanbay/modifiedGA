@@ -17,10 +17,13 @@ mGA = modifiedGA( popSize, nGen, nVar, mins, maxs, problem, optimType, info )
   * `nVar`      : Number of variables
   * `mins`      : Minimum value in the parameter space of possible values for the variables
   * `maxs`      : Maximum value in the parameter space of possible values for the variables
-  * `problem`   : The problem to be used in optimization
+  * `problem`   : The function to be used in optimization
+
+<br>
   
-  > Warning!
-  > The values of mins and maxs should consist of as many as nVar value.
+  > [!IMPORTANT]
+  > * The values of `mins` and `maxs` should consist of as many as `nVar` value.
+  > * The `problem` should take list of variables as parameters and return the result of the function.
 
 <br>
 
