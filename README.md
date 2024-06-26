@@ -4,6 +4,10 @@ This Python module comprises a modified Genetic Algorithm where a new intermedia
 
 <br>
 
+Mathematical background and performance: [click here](https://github.com/acanbay/modifiedGA/blob/main/modifiedGA.pdf)
+
+<br>
+
 ### Setting the optimization object
 
 ```python
