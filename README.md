@@ -1,18 +1,15 @@
 # modifiedGA (mGA)
-Modified version of a genetic algorithm developed for optimization problems with correlated variables.
-___
 
 This Python module comprises a modified Genetic Algorithm where a new intermediate step, gene variation, is introduced, and a mutation defined by a Gaussian distribution with a standard deviation that adjusts based on the results of each generation. It is capable of optimizing multiple parameters (even in cases of correlation between them - in such instances, it is advisable to maintain a high number of generations).
 
 <br>
 
+### Setting the optimization object
+
 ```python
 mGA = modifiedGA( PopSize, nGen, nParam, mins, maxs, problem, OptimType, overstep, info )
 ```
-
 <br>
-
-### Setting the optimization object
 
 **Required parameters:**
   * `PopSize`   : Population size (must be at least 10)
