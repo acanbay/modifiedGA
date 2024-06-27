@@ -65,4 +65,11 @@ Non-required parameters:
   * `ylabel`    : Label of the y-axis on the graph (default value is "Fitness")
   * `title`     : Title of the graph (default is empty)
 
+<br>
+  
+  > [!IMPORTANT]
+  > The [matplotlib](https://github.com/matplotlib/matplotlib) module must be installed to plot graphs
+
+<br>
+
 ---
