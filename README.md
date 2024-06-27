@@ -8,6 +8,15 @@ Mathematical background and performance test: [click here](https://github.com/ac
 
 <br>
 
+**Installation:**
+
+Download the [latest release](https://github.com/acanbay/modifiedGA/releases) and extract it. Enter the extracted file and run the following command via console:
+```console
+python setup.py install
+```
+
+<br>
+
 ### Setting the optimization object
 
 ```python
