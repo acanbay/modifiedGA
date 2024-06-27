@@ -11,7 +11,7 @@ Mathematical background and performance test: [click here](https://github.com/ac
 ### Setting the optimization object
 
 ```python
-mGA = modifiedGA( popSize, nGen, nVar, mins, maxs, problem, optimType, info )
+mGA = modifiedGA.algorithm( popSize, nGen, nVar, mins, maxs, problem, optimType, info )
 ```
 <br>
 
