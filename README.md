@@ -12,7 +12,7 @@ Mathematical background and performance test: [click here](https://github.com/ac
 
 **Installation:**
 
-Download the [latest release](https://github.com/acanbay/modifiedGA/releases) and extract it. Enter the extracted file and run the following command via console:
+Download the [latest release](https://github.com/acanbay/modifiedGA/releases), extract it, enter the extracted file, and run the following command via the console.
 ```console
 python setup.py install
 ```
