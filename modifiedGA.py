@@ -145,7 +145,7 @@ class algorithm():
         for i in range(self.nVar):
             if random.random() < ratio:
                 gene = offSpring[i] * random.gauss(1, self.sigma)
-                if  self.minX[i] < gene < self.maxX[i]:
+                if self.minX[i] < gene < self.maxX[i]:
                     offSpring[i] = gene
         return offSpring
 
