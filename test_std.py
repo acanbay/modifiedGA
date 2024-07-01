@@ -15,7 +15,7 @@ for number in [10,100,1000,10000]:
     all_res = []
     all_val= []
     for i in range(1000):
-        mGA =   algorithm(popSize=100,
+        mGA = algorithm(popSize=100,
                 nGen=100,
                 nVar=2,
                 mins = [-number,-number],
