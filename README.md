@@ -1,5 +1,5 @@
 # modifiedGA (mGA) 
-[![DOI](https://zenodo.org/badge/820537288.svg)](https://zenodo.org/doi/10.5281/zenodo.12569211)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12569505.svg)](https://doi.org/10.5281/zenodo.12569505)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/acanbay/modifiedGA/HEAD?labpath=examples.ipynb) 
 
 This Python module comprises a modified Genetic Algorithm where a new intermediate step, gene variation, is introduced, and a mutation defined by a Gaussian distribution with a standard deviation that adjusts based on the results of each generation. It is capable of optimizing multiple parameters (even in cases of correlation between them - in such instances, it is advisable to maintain a high number of generations).
